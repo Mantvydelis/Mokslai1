@@ -223,3 +223,102 @@
 //{
 //    Console.WriteLine("Skaičiai netinkami ypatingam metodui");
 //}
+
+
+using System;
+using System.Security.Cryptography;
+
+
+///* Užduotis 5:  ********************************************/
+///
+
+//Console.WriteLine("Irasykite skaiciu: ");
+//int skaicius = int.Parse(Console.ReadLine());
+//if (skaicius % 2 == 0)
+//{
+//    Console.WriteLine("Lyginis");
+//}
+//else
+//{
+//    Console.WriteLine("Nelyginis");
+//}
+
+
+///* Užduotis 6:  ********************************************/
+
+//Console.WriteLine("Irasykite raide: ");
+//string raide = Console.ReadLine()?.ToLower();
+//switch (raide)
+//{
+//    case "a":
+//        Console.WriteLine("Balse");
+//        break;
+//    case "e":
+//        Console.WriteLine("Balse");
+//        break;
+//    case "i":
+//        Console.WriteLine("Balse");
+//        break;
+//    case "y":
+//        Console.WriteLine("Balse");
+//        break;
+//    case "o":
+//        Console.WriteLine("Balse");
+//        break;
+//    case "u":
+//        Console.WriteLine("Balse");
+//        break;
+//    default:
+//        Console.WriteLine("Priebalse");
+//        break;
+//}
+
+///* Užduotis 7:  ********************************************
+///
+
+//Console.WriteLine("Irasykite pirmos dienos temperatura: ");
+//var t1 = Convert.ToDecimal(Console.ReadLine());
+//Console.WriteLine("Irasykite antros dienos temperatura: ");
+//var t2 = Convert.ToDecimal(Console.ReadLine());
+//Console.WriteLine("Irasykite trecios dienos temperatura: ");
+//var t3 = Convert.ToDecimal(Console.ReadLine());
+//Console.WriteLine("Irasykite ketvirtos dienos temperatura: ");
+//var t4 = Convert.ToDecimal(Console.ReadLine());
+//Console.WriteLine("Irasykite penktos dienos temperatura: ");
+//var t5 = Convert.ToDecimal(Console.ReadLine());
+//Console.WriteLine("Irasykite sestos dienos temperatura: ");
+//var t6 = Convert.ToDecimal(Console.ReadLine());
+//Console.WriteLine("Irasykite septintos dienos temperatura: ");
+//var t7 = Convert.ToDecimal(Console.ReadLine());
+
+//var avtemp = ((t1 + t2 + t3 + t4 + t5 + t6 + t7) / 7);
+
+//Console.WriteLine("Savaites temperaturos vidurkis: " + Math.Round((decimal)avtemp));
+
+///* Užduotis 8:  ********************************************
+///
+
+//Console.WriteLine("Irasykite pradine prekes kaina: ");
+//var initialPrice = Convert.ToDecimal(Console.ReadLine());
+//Console.WriteLine("Irasykite PVM dydi (proc.): ");
+//var vatPercentage = Convert.ToDecimal(Console.ReadLine());
+
+//var pricevat = (decimal)(initialPrice * vatPercentage / 100) + initialPrice;
+
+//Console.WriteLine("Kaina be PVM: " + initialPrice);
+//Console.WriteLine("Kaina su PVM: " + pricevat);
+
+
+///* Užduotis 9:  ********************************************
+///
+
+//Console.WriteLine("Irasykite savo svori: ");
+//var weight = Convert.ToDecimal(Console.ReadLine());
+//Console.WriteLine("Irasykite savo ugi: ");
+//var height = Convert.ToDecimal(Console.ReadLine());
+
+//var kmi = (decimal)weight / (height * height);
+
+//Console.WriteLine("Jusu KMI: " + kmi);
+
+

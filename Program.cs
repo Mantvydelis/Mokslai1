@@ -321,4 +321,9 @@ using System.Security.Cryptography;
 
 //Console.WriteLine("Jusu KMI: " + kmi);
 
+///* Papildomas is docso 9:  ********************************************
+///
+
+
+
 
